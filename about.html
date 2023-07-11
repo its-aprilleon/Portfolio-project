@@ -18,10 +18,50 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/81a03d9efa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:wght@500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>About me: Thet Htar Yee Maung</title>
+    <title>About Thet Htar: Thet Htar Yee Maung</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="shecodes-logo"
+          />
+          <img
+            src="/images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="shecodes-logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Thet Htar">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Thet Htar's Projects">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Thet Htar's contacts">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -35,13 +75,59 @@
               large language ocean. A small river named Duden flows by
             </p>
 
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="/images/coding.jpg" alt="" class="img-fluid" />
+          <img src="/images/coding.jpg" alt="Coding Woman" class="img-fluid" />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn btn-branding">Contact me</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:thethtaryeem@gmail.com" class="email-link"
+          >thethtaryeem@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/its_aprilleon"
+          target="_blank"
+          title="Github profile"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.github.com/its_aprilleon"
+          target="_blank"
+          title="instagram profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.twitter.com/thethtar_yee_mg"
+          target="_blank"
+          title="twitter profile"
+          ><i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by SheCodes and it is
+        <a
+          href="https://github.com/its-aprilleon/Portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
