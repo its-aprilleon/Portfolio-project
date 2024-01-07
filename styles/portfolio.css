@@ -63,6 +63,10 @@ nav a:hover {
   color: var(--branding-color);
 }
 
+.content-container div img {
+  border-radius: 10px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
